@@ -1,0 +1,45 @@
+@media screen and (max-width: 1400px){
+    
+}
+@media screen and (max-width: 1300px){
+    .container{
+        margin-inline: 100px;
+    }
+    nav ul.nav-items{
+        display: none;
+    }
+    nav .call-us{
+        order: 2;
+        margin: 0;
+        text-align: center;
+    }
+    nav .btn-bars{
+        display: block;
+    }    
+    nav .viewboard{
+        display: block;
+    }
+}
+@media screen and (max-width: 1200px){
+    .container{
+        margin-inline: 70px;
+    }    
+}
+@media screen and (max-width: 992px){
+    .container{
+        margin-inline: 60px;
+    }      
+}
+@media screen and (max-width: 768px){
+    .container{
+        margin-inline: 40px;
+    }      
+}
+@media screen and (max-width: 576px){
+    
+}
+@media screen and (max-width: 499px){
+    nav .call-us{
+    display: none;
+    }    
+}

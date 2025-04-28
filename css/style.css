@@ -11,6 +11,9 @@ body{
 .container{
     margin-inline: 150px;
 }
+.hidden {
+  display: none !important;
+}
 img{
     width: 100%;
     display: block;
@@ -28,6 +31,7 @@ nav .nav-group{
 nav picture.logo{
     display: block;
     width: 157px;
+    order: 1;
 }
 nav picture.logo img{
    	mix-blend-mode: multiply;
@@ -42,6 +46,7 @@ nav ul.nav-items{
     padding: 0;
     font-size: 18px;
     text-transform: capitalize;
+    order: 2;
 }
 nav ul.nav-items .active,nav ul.nav-items li:hover{
     background-color: #0000000F;
@@ -57,6 +62,7 @@ nav .call-us{
     text-align: right;
     color: white;
     margin-left: 67.67px;
+    order: 3;
 }
 nav .call-us p{
     font-size: 18px;
@@ -68,4 +74,57 @@ nav .call-us span{
     font-weight: 700;
     font-size: 24px;
 
+}
+nav .btn-bars{
+    display: none;
+    cursor: pointer;
+    font-size: 40px;
+    color: white;
+    order: 4;
+}
+/* for media screen */
+nav .viewboard{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #000000a2;
+    display: none;
+}
+nav .viewboard .nav-group-m{
+    background-color: white;
+    border-radius: 15px;
+    position: absolute;
+    top:20%;
+    left: 40px;
+    right: 40px;
+    text-align: left;
+    font-size: 18px;
+    text-transform: capitalize;
+    padding-inline: 24px;
+}
+nav .viewboard .nav-group-m ul.nav-items-m{
+    list-style: none;
+    padding: 0;
+}
+nav .viewboard .nav-group-m ul.nav-items-m li{
+    border-bottom: 1px solid #00000057;
+    padding: 15px;
+    cursor: pointer;
+
+}
+nav .viewboard .nav-group-m ul.nav-items-m .active, nav .viewboard .nav-group-m ul.nav-items-m li:hover{
+    font-weight: 600;
+    background-color: #0000000F;
+    border-bottom: 3px solid #0000004D;
+    border-radius: 8px;
+}
+nav .viewboard .close-nav{
+    color: white;
+    font-size: 34px;
+    position: absolute;
+    right: 80px;
+    top:14%;
+    cursor: pointer;
 }
