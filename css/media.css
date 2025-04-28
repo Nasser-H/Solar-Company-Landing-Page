@@ -49,6 +49,16 @@
         margin-bottom: 12px;
         line-height: 20px;
     }
+    #installers h1{
+        font-size: 37px;
+        margin: 0px 0px 20px;
+    }
+    #installers p{
+        margin: 0px 0px 30px;
+    }
+    #installers ul{
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -81,6 +91,20 @@
     header .head-page .home-text-header .head-btns button{
         padding: 8px 16px;
     }    
+    #installers .container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 40px;
+    }
+    #installers .solar-team{
+        width: 100%;
+        margin: 0;
+    }
+    #installers picture{
+        width: 100%;
+        margin-left: -35px;
+    }
 }
 
 @media screen and (max-width: 576px){
