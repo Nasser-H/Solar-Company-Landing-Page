@@ -20,26 +20,95 @@
         display: block;
     }
 }
+
 @media screen and (max-width: 1200px){
     .container{
         margin-inline: 70px;
+    }   
+    header .head-page .home-text-header h1{
+        font-size: 38px;
+        margin-bottom: 20px;
+    }     
+    header .head-page .home-text-header p{
+        font-size: 18px;
+        margin-bottom: 20px;
+        line-height: 20px;
     }    
 }
+
 @media screen and (max-width: 992px){
     .container{
-        margin-inline: 60px;
-    }      
+        margin-inline: 40px;
+    }
+    header .head-page .home-text-header h1{
+        font-size: 28px;
+        margin-bottom: 12px;
+    }
+    header .head-page .home-text-header p{
+        font-size: 16px;
+        margin-bottom: 12px;
+        line-height: 20px;
+    }
 }
+
 @media screen and (max-width: 768px){
     .container{
         margin-inline: 40px;
+    }
+    header .head-page .home-slider{
+        left: 0;
+        right: 0;
+    }
+    header .head-page .home-text-header{
+        left: 0;
+        right: 0;
+        text-align: center;
+        width: auto;
+    }
+    header .head-page .home-text-header h1{
+        font-size: 20px;
+        margin-bottom: 9px;
+
+    }
+    header .head-page .home-text-header p{
+        font-size: 14px;
+        margin-bottom: 9px;
     }      
+    header .head-page .home-text-header .head-btns{
+        display: flex;
+        justify-content: center;
+    }     
+    header .head-page .home-text-header .head-btns button{
+        padding: 8px 16px;
+    }    
 }
+
 @media screen and (max-width: 576px){
-    
+    header .head-page .home-text-header h1{
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+    header .head-page .home-text-header p{
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+    header .head-page .home-text-header .head-btns{
+        display: flex;
+    }     
+    header .head-page .home-text-header .head-btns button{
+        padding: 8px 12px;
+        font-size: 13px;
+    }
+    header .head-page .home-text-header .head-btns .call{
+        margin-right: 10px;
+    }
+    header .head-page img{
+        height: 300px;
+    }
 }
+
 @media screen and (max-width: 499px){
     nav .call-us{
     display: none;
-    }    
+    }
 }
