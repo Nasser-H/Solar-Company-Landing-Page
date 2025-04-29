@@ -71,6 +71,17 @@
         font-size: 18px;
         margin: 0 0 24px;
     }
+    #SolarKits .Solar-Kits-cards{
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 40px;
+    }
+    #SolarKits .Solar-Kits-cards .card{
+    width: 80%;
+    }
+    #SolarKits .Solar-Kits-cards .card .inner{
+        padding: 0 !important;
+    }    
 }
 
 @media screen and (max-width: 768px){
@@ -128,9 +139,18 @@
         font-size: 14px;
         margin: 0 0 12px;
     }
+    #SolarKits .Solar-Kits-header{
+        margin: 0 20px 40px;
+    }
+    #SolarKits .Solar-Kits-cards .card{
+        width: 90%;
+    }
 }
 
 @media screen and (max-width: 576px){
+    .container{
+        margin-inline: 20px;
+    }    
     header .head-page .home-text-header h1{
         font-size: 16px;
         margin-bottom: 8px;
@@ -156,9 +176,23 @@
     padding: 8px 28px;    
     font-size: 12px;    
     }
+    #SolarKits .Solar-Kits-header{
+        margin: 0 10px 25px;
+    }
+    #SolarKits .Solar-Kits-header h2{
+        font-size: 32px;
+        margin: 0 0 14px;
+    }
+    #SolarKits .Solar-Kits-header p{
+        font-size: 14px;
+        margin: 0 0 14px;
+    }
+    #SolarKits .Solar-Kits-cards .card{
+        width: 95%;
+    }    
 }
 
-@media screen and (max-width: 499px){
+@media screen and (max-width: 499px){   
     nav .call-us{
     display: none;
     }
@@ -178,4 +212,7 @@
     padding: 4px 18px;    
     font-size: 8px;    
     }    
+        #SolarKits .Solar-Kits-cards .card{
+        width: 100%;
+    }  
 }

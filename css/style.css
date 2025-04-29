@@ -195,9 +195,11 @@ header .head-page .home-text-header .head-btns .call{
     color: white;
     background-color: #3CAB90;
     margin-right: 24px;
+    cursor: pointer;
 }
 header .head-page .home-text-header .head-btns .request{
-background-color: #FFBB1C;
+    background-color: #FFBB1C;
+    cursor: pointer;
 }
 /* section installers */
 #installers{
@@ -288,5 +290,74 @@ margin-right: 23px;
     font-size: 14px;
     line-height: 100%;
     letter-spacing: 1px;
-
+    cursor: pointer;
+}
+/* section SolarKits */
+#SolarKits{
+    margin-block: 80px;
+}
+#SolarKits .Solar-Kits-header{
+    margin: 0 102px 40px;
+}
+#SolarKits .Solar-Kits-header h2{
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 100%;
+    text-align: center;
+    margin: 0 0 24px;
+}
+#SolarKits .Solar-Kits-header p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #475467;
+    margin: 0;
+    padding-inline: 0px;
+}
+#SolarKits .Solar-Kits-cards{
+    display: flex;
+}
+#SolarKits .Solar-Kits-cards .card{
+    width: 33.33%;
+}
+#SolarKits .Solar-Kits-cards .card .inner .card-shadow{
+    box-shadow: 0px 4px 30px 0px #0000000D;
+}
+#SolarKits .Solar-Kits-cards .card:first-child .inner{
+    padding-right: 21.3333px;
+}
+#SolarKits .Solar-Kits-cards .card:nth-child(2) .inner{
+    padding-inline: 10.6666px;
+}
+#SolarKits .Solar-Kits-cards .card:last-child .inner{
+    padding-left: 21.3333px;
+}
+#SolarKits .Solar-Kits-cards .card .inner .content-card{
+    padding: 20px;
+}
+#SolarKits .Solar-Kits-cards .card .inner .content-card h3{
+    margin: 0 0 24px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+#SolarKits .Solar-Kits-cards .card .inner .content-card p{
+    margin: 0 0 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #475467;
+    letter-spacing: 0.2px;
+}
+#SolarKits .Solar-Kits-cards .card .inner .content-card span{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3CAB90;
+    letter-spacing: 0.2px;
+}
+#SolarKits .Solar-Kits-cards .card .inner .content-card span i{
+    margin-left:  8px;
 }
