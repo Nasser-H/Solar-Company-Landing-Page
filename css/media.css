@@ -19,6 +19,9 @@
     nav .viewboard{
         display: block;
     }
+    #repairs .box-content{
+        margin-inline: 195px;
+    }
 }
 
 @media screen and (max-width: 1200px){
@@ -33,6 +36,9 @@
         font-size: 18px;
         margin-bottom: 20px;
         line-height: 20px;
+    }    
+    #repairs .box-content{
+        margin-inline: 105px;
     }    
 }
 
@@ -81,6 +87,15 @@
     }
     #SolarKits .Solar-Kits-cards .card .inner{
         padding: 0 !important;
+    }   
+    #repairs .box-content{
+        margin-inline: 45px;
+    }     
+    #repairs .box-content div h2{
+        font-size: 32px;
+    }    
+    #repairs .box-content div p{
+        font-size: 17px;
     }    
 }
 
@@ -145,6 +160,19 @@
     #SolarKits .Solar-Kits-cards .card{
         width: 90%;
     }
+    #repairs .box-content{
+        margin-inline: 30px;
+    }
+    #repairs .box-content div{
+        padding: 20px;
+    }    
+    #repairs .box-content div h2{
+        font-size: 28px;
+        margin: 0 0 16px;
+    }    
+    #repairs .box-content div p{
+        font-size: 14px;
+    }     
 }
 
 @media screen and (max-width: 576px){
@@ -215,4 +243,14 @@
         #SolarKits .Solar-Kits-cards .card{
         width: 100%;
     }  
+        #repairs .box-content div{
+        padding: 10px;
+    }  
+    #repairs .box-content div h2{
+        font-size: 18px;
+        margin: 0 0 5px;
+    }
+    #repairs .box-content div p{
+        font-size: 12px;
+    }
 }

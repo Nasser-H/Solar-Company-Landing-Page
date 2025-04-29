@@ -361,3 +361,37 @@ margin-right: 23px;
 #SolarKits .Solar-Kits-cards .card .inner .content-card span i{
     margin-left:  8px;
 }
+/* section repairs */
+#repairs{
+    background: url(../images/female-planning-environment-projects.png);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    overflow: auto;
+}
+#repairs .box-content{
+    background-color: #00000091;
+    backdrop-filter: blur(24px);
+    margin: 98px 0 96px;
+    margin-inline: 291px;
+    border-radius: 15px;
+}
+#repairs .box-content div{
+    padding: 40px;
+    display: block;
+}
+#repairs .box-content div h2{
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 100%;
+    letter-spacing: 0.8px;
+    margin: 0 0 32px;
+}
+#repairs .box-content div p{
+font-weight: 500;
+font-size: 20px;
+line-height: 140%;
+letter-spacing: 0.3px;
+text-align: center;
+margin: 0;
+}
