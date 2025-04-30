@@ -440,17 +440,17 @@ margin: 0;
     border-radius: 12px;
     height: fit-content;
 }
+#EnergyInnovators .header-content .cards .card div{
+    padding: 24px;
+}
 #EnergyInnovators .header-content .cards .card picture{
     background-color: #3CAB9026;
     display: block;
     border-radius: 13px;
     margin-bottom: 32px;
-}
-#EnergyInnovators .header-content .cards .card div{
-    padding: 24px;
+    padding: 28.5px 42.83px;
 }
 #EnergyInnovators .header-content .cards .card picture img{
-    padding: 28.5px 42.83px;
     mix-blend-mode: luminosity;
 }
 #EnergyInnovators .header-content .cards .card h4{
@@ -535,4 +535,125 @@ margin: 0;
     letter-spacing: 0px;
     color: #475467;
     margin: 0;
+}
+#whatTheySay{
+    padding-block: 80px;
+}
+#whatTheySay .cover{
+    display: flex;
+    gap: 32px;
+}
+#whatTheySay .cover figcaption{
+    width: 37%;
+}
+#whatTheySay .cover figcaption picture{
+    display: block;
+    width: 58.3333px;
+    margin-bottom: 28px;
+}
+#whatTheySay .cover figcaption h2{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: 0px;
+    margin: 0 0 28px;
+}
+#whatTheySay .cover figcaption p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    color: #1C1C1C;
+    margin: 0 0 28px;
+}
+#whatTheySay .cover .What-they-say{
+    width: 63%;
+    background-color: #3CAB900F;
+    border-radius: 24px;
+    padding: 40px;
+}
+#whatTheySay .cover .What-they-say .dotts{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 87px;
+}
+#whatTheySay .cover .What-they-say .dotts .comment span{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    color: #3CAB90;
+}
+#whatTheySay .cover .What-they-say .dotts .comment p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+#whatTheySay .cover .What-they-say .dotts ul{
+    list-style: none;
+    margin: 0;
+    display: flex;
+    gap: 8px;
+    margin-top: -3px;
+}
+#whatTheySay .cover .What-they-say .dotts li{
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background-color: #D9D9D9;
+    cursor: pointer;
+}
+#whatTheySay .cover .What-they-say .dotts li:first-child{
+    background-color: #6B6B6B;
+}
+#whatTheySay .cover .What-they-say .comment-writer{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+#whatTheySay .cover .What-they-say .comment-writer .comment-user{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+#whatTheySay .cover .What-they-say .comment-writer .comment-user picture{
+    display: block;
+    width: 60px;
+}
+#whatTheySay .cover .What-they-say .comment-writer .comment-user div{
+    padding-block: 6.5px;
+}
+#whatTheySay .cover .What-they-say .comment-writer .comment-user h5{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    margin: 0 0 9px;
+}
+#whatTheySay .cover .What-they-say .comment-writer .comment-user p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    margin: 0;
+}
+#whatTheySay .cover .What-they-say .pointer ul{
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    margin: 0;
+}
+#whatTheySay .cover .What-they-say .pointer ul li{
+    width: 48px;
+    height: 48px;
+    border: 1px solid #1C1C1C;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    cursor: pointer;
 }

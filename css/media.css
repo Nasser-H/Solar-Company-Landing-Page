@@ -115,7 +115,17 @@
     #OurValues .cards .card{
     width: 47%;
     }
-
+    #whatTheySay .cover{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #whatTheySay .cover figcaption{
+        width: 70%;
+    }
+    #whatTheySay .cover .What-they-say{
+        width: 80%;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -208,6 +218,12 @@
     #OurValues .cards .card{
     width: 85%;
     }
+    #whatTheySay .cover figcaption{
+        width: 95%;
+    }
+    #whatTheySay .cover .What-they-say{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 576px){
@@ -297,4 +313,39 @@
     #OurValues .cards .card{
     width: 100%;
     }    
+    #whatTheySay .cover figcaption{
+        width: 100%;
+    }
+    #whatTheySay .cover .What-they-say{
+        width: 100%;
+        padding: 20px;
+    }
+    #whatTheySay .cover .What-they-say .dotts{
+        flex-wrap: wrap;
+        margin-bottom: 60px;
+    }
+    #whatTheySay .cover .What-they-say .dotts .comment{
+        order: 1;
+        margin-top: 20px;
+
+    }
+    #whatTheySay .cover .What-they-say .dotts ul{
+        padding: 0;
+    }
+    #whatTheySay .cover .What-they-say .dotts .comment p{
+        font-size: 18px;
+    }
+    #whatTheySay .cover .What-they-say .comment-writer{
+        flex-wrap: wrap;
+    }
+    #whatTheySay .cover .What-they-say .comment-writer .comment-user{
+        order: 2;
+    }
+    #whatTheySay .cover .What-they-say .pointer{
+        order: 1;
+        margin-bottom: 20px;
+    }
+    #whatTheySay .cover .What-they-say .pointer ul{
+        padding: 0;
+    }
 }
