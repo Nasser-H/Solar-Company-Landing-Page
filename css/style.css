@@ -657,3 +657,89 @@ margin: 0;
     font-size: 32px;
     cursor: pointer;
 }
+/* footer */
+footer{
+    padding-block: 80px;
+    background-color: #283646;
+}
+footer .footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    color: white;
+    padding-bottom: 54px;
+    border-bottom: 1px solid #71777D;
+}
+footer .footer-content .footer-items picture{
+    display: block;
+    width: 185px;
+    margin-bottom: 38px;
+}
+footer .footer-content .footer-items picture img{
+    mix-blend-mode: luminosity;
+}
+footer .footer-content .footer-items ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 40px;
+    margin: 0;
+}
+footer .footer-content .subscribe p{
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.3px;    
+margin: 0 0 10px;
+}
+footer .footer-content .subscribe form{
+    position: relative;
+}
+footer .footer-content .subscribe input{
+    border: 1px solid #B3BDC7;
+    color: #92989F;
+    border-radius: 38px;
+    padding: 12px 20px;
+    position: relative;
+    background-color: #3B4857;
+    width: 406px;
+    height: 48px;
+}
+footer .footer-content .subscribe input::placeholder{
+    color: #92989F;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+
+}
+footer .footer-content .subscribe button{
+    color: white;
+    background-color: #FFBB1C;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    padding: 12px 34px;
+    border-radius: 109px;
+    border: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+footer .bottom-bar{
+    color: #92989F;
+    padding-top: 54px;
+    display: flex;
+    justify-content: space-between;
+}
+footer .bottom-bar p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.26px;
+    margin: 0;
+}

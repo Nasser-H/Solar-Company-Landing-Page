@@ -126,6 +126,21 @@
     #whatTheySay .cover .What-they-say{
         width: 80%;
     }
+    footer .footer-content{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+    }
+    footer .footer-content .footer-items{
+        order: 2;
+    }
+    footer .footer-content .subscribe{
+        order: 1;
+        text-align: center;
+    }
+    footer .footer-content .footer-items picture{
+        margin-inline: auto;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -347,5 +362,13 @@
     }
     #whatTheySay .cover .What-they-say .pointer ul{
         padding: 0;
+    }
+    footer .footer-content .subscribe input{
+        width: 250px;
+    }
+    footer .footer-content .footer-items ul{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
     }
 }
