@@ -482,3 +482,57 @@ margin: 0;
 #EnergyInnovators .header-content .cards .card .link i{
     margin-left: 8px;
 }
+/* section OurValues */
+#OurValues{
+    padding-block: 80px;
+}
+#OurValues .header-section{
+    text-align: center;
+}
+#OurValues .header-section h2{
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 100%;
+    letter-spacing: 0.8px;
+    margin: 0 0 28px;
+}
+#OurValues .header-section p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: #475467;
+    margin: 0 0 32px;
+}
+#OurValues .cards{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+#OurValues .cards .card{
+    width: 33.333%;
+    padding: 32px;
+    border: 1px solid #3CAB90;
+    background-color: #3CAB900D;
+    border-radius: 15px;
+}
+#OurValues .cards .card picture{
+    width: 70px;
+    display: block;
+    margin-bottom: 20px;
+}
+#OurValues .cards .card h4{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    margin: 0 0 20px;
+}
+#OurValues .cards .card p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: #475467;
+    margin: 0;
+}

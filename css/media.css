@@ -109,6 +109,13 @@
     #repairs .box-content div p{
         font-size: 17px;
     }    
+    #OurValues .cards{
+        flex-wrap: wrap;
+    }
+    #OurValues .cards .card{
+    width: 47%;
+    }
+
 }
 
 @media screen and (max-width: 768px){
@@ -198,6 +205,9 @@
     width: 100%;
     text-align: center;
     }
+    #OurValues .cards .card{
+    width: 85%;
+    }
 }
 
 @media screen and (max-width: 576px){
@@ -284,4 +294,7 @@
     #EnergyInnovators .header-content .header p{
         font-size: 16px;
     }
+    #OurValues .cards .card{
+    width: 100%;
+    }    
 }
