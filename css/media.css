@@ -129,7 +129,7 @@
     footer .footer-content{
         flex-wrap: wrap;
         justify-content: center;
-        gap: 40px;
+        gap: 51px;
     }
     footer .footer-content .footer-items{
         order: 2;
@@ -238,6 +238,9 @@
     }
     #whatTheySay .cover .What-they-say{
         width: 100%;
+    }
+    footer .footer-content{
+        gap: 40px;
     }
 }
 
